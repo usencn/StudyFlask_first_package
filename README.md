@@ -1,4 +1,4 @@
-# flask-study
+# StudyFlask
 just one test for study flask
 
 一个很简单的flask学习示例，跟着书本上做的功能。

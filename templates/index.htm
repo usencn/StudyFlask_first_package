@@ -1,0 +1,11 @@
+{% extends "base.htm" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}山姆不归路 - 首页{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+	<h1>你好，{% if name %}{{ name }}{% else %}路人甲{% endif %}！</h1>
+</div>
+{{ wtf.quick_form(form) }}
+{% endblock %}
